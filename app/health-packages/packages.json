@@ -1,0 +1,76 @@
+{
+  "packages": [
+    {
+      "id": "basic",
+      "name": "Basic Health Checkup",
+      "price": "Contact for pricing",
+      "tag": "Essential",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80",
+      "tests": ["Complete Blood Count (CBC)", "Blood Sugar (Fasting)", "Lipid Profile", "Liver Function Test", "Kidney Function Test", "Urine Routine", "ECG"],
+      "prep": "Fast for 10–12 hours before sample collection. Avoid alcohol 24 hours prior."
+    },
+    {
+      "id": "executive",
+      "name": "Executive Health Checkup",
+      "price": "Contact for pricing",
+      "tag": "Comprehensive",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+      "tests": ["All Basic tests", "Thyroid Profile (TSH)", "Vitamin D & B12", "Chest X-Ray", "Ultrasound Abdomen", "2D Echo", "Physician Consultation"],
+      "prep": "Fast for 10–12 hours. Bring previous medical records if available."
+    },
+    {
+      "id": "diabetes",
+      "name": "Diabetes Care Package",
+      "price": "Contact for pricing",
+      "tag": "Chronic Care",
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80",
+      "tests": ["Fasting & Post-Prandial Blood Sugar", "HbA1c", "Lipid Profile", "Kidney Function Test", "Urine Microalbumin", "Foot Examination", "Diabetologist Consultation"],
+      "prep": "Follow fasting instructions as advised. Continue regular medication unless told otherwise."
+    },
+    {
+      "id": "cardiac",
+      "name": "Cardiac Screening Package",
+      "price": "Contact for pricing",
+      "tag": "Heart Health",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80",
+      "tests": ["ECG", "2D Echo", "Lipid Profile", "Blood Sugar", "Troponin (if indicated)", "Chest X-Ray", "Cardiologist Consultation"],
+      "prep": "Wear comfortable clothing. Avoid caffeine 2 hours before ECG/Echo."
+    },
+    {
+      "id": "senior",
+      "name": "Senior Citizen Package",
+      "price": "Contact for pricing",
+      "tag": "60+ Years",
+      "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=800&q=80",
+      "tests": ["CBC, LFT, KFT, Lipid Profile", "Thyroid Profile", "Blood Sugar", "Bone Density Screening", "ECG & 2D Echo", "Physician Consultation"],
+      "prep": "Fast for 10–12 hours. A family member may accompany for assistance."
+    },
+    {
+      "id": "womens",
+      "name": "Women's Health Package",
+      "price": "Contact for pricing",
+      "tag": "Women's Care",
+      "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=800&q=80",
+      "tests": ["CBC, Thyroid, Vitamin D", "Pap Smear / HPV (as applicable)", "Breast Examination", "Ultrasound Pelvis", "Bone Density", "Gynaecologist Consultation"],
+      "prep": "Schedule Pap smear outside menstrual period. Fast for blood tests as advised."
+    },
+    {
+      "id": "kidney-liver",
+      "name": "Kidney & Liver Profile",
+      "price": "Contact for pricing",
+      "tag": "Organ Health",
+      "image": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=800&q=80",
+      "tests": ["Liver Function Test (full panel)", "Kidney Function Test (full panel)", "Urine Routine & Microscopy", "Serum Electrolytes", "Ultrasound Abdomen", "Physician Consultation"],
+      "prep": "Fast for 10–12 hours before blood sample collection."
+    },
+    {
+      "id": "pre-op",
+      "name": "Pre-Operative Profile",
+      "price": "Contact for pricing",
+      "tag": "Surgery Prep",
+      "image": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&q=80",
+      "tests": ["CBC, LFT, KFT, Coagulation Profile", "Blood Sugar", "ECG", "Chest X-Ray", "2D Echo (if indicated)", "Physician / Anaesthetist Clearance"],
+      "prep": "Bring surgeon's prescription and previous reports. Follow pre-surgery fasting instructions."
+    }
+  ]
+}

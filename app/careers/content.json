@@ -1,0 +1,52 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Resident Medical Officer (RMO)",
+            "location": "Multiple Locations",
+            "description": "Join our hospital operations team as an RMO. You will manage day-to-day clinical operations, attend to in-patients, coordinate with consultants, and ensure adherence to Syros care protocols."
+        },
+        {
+            "id": 2,
+            "title": "Staff Nurse (ICU / General Ward)",
+            "location": "Multiple Locations",
+            "description": "We are looking for qualified nurses to deliver compassionate, protocol-driven care. ICU specialisation is a plus. You will work in a structured environment with clear SOPs and mentorship."
+        },
+        {
+            "id": 3,
+            "title": "Hospital Administrator",
+            "location": "Multiple Locations",
+            "description": "Oversee hospital operations including staffing, supply chain, patient experience, billing, and compliance. You will work closely with the Syros Operations team to implement standardised systems."
+        },
+        {
+            "id": 4,
+            "title": "Patient Care Executive",
+            "location": "Multiple Locations",
+            "description": "Serve as the first point of contact for patients - manage admissions, guide families, coordinate appointments, and ensure a smooth, empathetic care experience from entry to discharge."
+        },
+        {
+            "id": 5,
+            "title": "Quality & Compliance Officer",
+            "location": "Multiple Locations",
+            "description": "Drive NABH-oriented quality initiatives across our hospitals. Conduct audits, maintain documentation, train staff on protocols, and report on key quality metrics."
+        },
+        {
+            "id": 6,
+            "title": "Healthcare IT / EMR Specialist",
+            "location": "Remote / Hybrid",
+            "description": "Implement and support digital health systems - EMR, telemedicine, billing software, and analytics dashboards - across Syros-managed hospitals. Prior healthcare IT experience preferred."
+        },
+        {
+            "id": 7,
+            "title": "Specialist Consultant (Various Departments)",
+            "location": "Multiple Locations",
+            "description": "Syros is empanelling specialists in General Surgery, Orthopaedics, Obstetrics, Internal Medicine, and Emergency Medicine. Visiting and full-time positions available."
+        },
+        {
+            "id": 8,
+            "title": "Billing & Insurance Executive",
+            "location": "Multiple Locations",
+            "description": "Manage TPA empanelment, insurance claims, and transparent patient billing. You will ensure clean, ethical billing practices aligned with Syros standards."
+        }
+    ]
+}

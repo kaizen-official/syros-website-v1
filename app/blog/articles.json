@@ -1,0 +1,103 @@
+{
+  "articles": [
+    {
+      "slug": "preventive-health-checkups",
+      "title": "Why Preventive Health Checkups Matter",
+      "category": "Preventive Care",
+      "readTime": "5 min",
+      "date": "2026-05-15",
+      "excerpt": "Early detection of diabetes, hypertension, and cardiac risk can prevent emergencies later. Learn what a basic health checkup should include and how often you need one.",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "diabetes-care-basics",
+      "title": "Living Well With Diabetes: A Practical Guide",
+      "category": "Diabetes",
+      "readTime": "6 min",
+      "date": "2026-05-08",
+      "excerpt": "Diabetes management is not just about medication — diet, exercise, regular monitoring, and foot care all play a critical role in preventing complications.",
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "hypertension-silent-killer",
+      "title": "Hypertension: The Silent Killer You Can Control",
+      "category": "Heart Health",
+      "readTime": "4 min",
+      "date": "2026-04-28",
+      "excerpt": "High blood pressure often has no symptoms until it causes a stroke or heart attack. Understand your numbers, lifestyle changes, and when to seek medical help.",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "heart-attack-warning-signs",
+      "title": "Heart Attack Warning Signs — Act Fast",
+      "category": "Emergency",
+      "readTime": "4 min",
+      "date": "2026-04-20",
+      "excerpt": "Chest pain, breathlessness, sweating, and pain radiating to the arm or jaw are warning signs. Every minute counts — know when to call emergency services.",
+      "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "stroke-symptoms-fast",
+      "title": "Recognising Stroke: The FAST Method",
+      "category": "Emergency",
+      "readTime": "3 min",
+      "date": "2026-04-12",
+      "excerpt": "Face drooping, Arm weakness, Speech difficulty, Time to call emergency. Stroke treatment is time-sensitive — learn the FAST checklist today.",
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "when-to-visit-emergency",
+      "title": "When Should You Visit the Emergency Department?",
+      "category": "Emergency",
+      "readTime": "5 min",
+      "date": "2026-03-30",
+      "excerpt": "Not every illness needs the ER, but some absolutely do. Learn the difference between urgent care situations and true medical emergencies.",
+      "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "icu-myths-debunked",
+      "title": "ICU Myths Debunked: What Families Should Know",
+      "category": "Critical Care",
+      "readTime": "6 min",
+      "date": "2026-03-18",
+      "excerpt": "ICU care can feel overwhelming for families. We address common misconceptions about ventilators, sedation, visiting hours, and recovery timelines.",
+      "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "seasonal-fever-guide",
+      "title": "Seasonal Fever: When to Worry and When to Rest",
+      "category": "General Health",
+      "readTime": "4 min",
+      "date": "2026-03-05",
+      "excerpt": "Most seasonal fevers resolve with rest and hydration. But persistent high fever, rash, or breathing difficulty needs medical evaluation — here's your guide.",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "dengue-malaria-prevention",
+      "title": "Dengue & Malaria: Prevention and Early Signs",
+      "category": "Seasonal Health",
+      "readTime": "5 min",
+      "date": "2026-02-22",
+      "excerpt": "Monsoon brings vector-borne diseases. Learn prevention steps, early symptoms, and when platelet counts and hospital admission become necessary.",
+      "image": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "kidney-health-essentials",
+      "title": "Protecting Your Kidneys: What Everyone Should Know",
+      "category": "Organ Health",
+      "readTime": "5 min",
+      "date": "2026-02-10",
+      "excerpt": "Diabetes and hypertension are the leading causes of kidney disease. Regular screening, hydration, and medication adherence can protect kidney function.",
+      "image": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "slug": "weight-loss-lifestyle",
+      "title": "Sustainable Weight Loss: Beyond Crash Diets",
+      "category": "Lifestyle",
+      "readTime": "6 min",
+      "date": "2026-01-28",
+      "excerpt": "Lasting weight management combines balanced nutrition, regular activity, sleep, and stress management — not extreme restriction or unproven supplements.",
+      "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
