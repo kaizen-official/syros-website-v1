@@ -1,7 +1,7 @@
 "use client";
 
 import BgLayout from '@/components/layout/bgLayout'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { IconHome, IconChevronRight, IconMapPin, IconPhone, IconMail, IconClock, IconCheck, IconX } from '@tabler/icons-react'
 import Link from 'next/link'
@@ -9,6 +9,7 @@ import Link from 'next/link'
 function ContactPage() {
   const [showThankYou, setShowThankYou] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [selectedDoctor, setSelectedDoctor] = useState('');
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -16,6 +17,17 @@ function ContactPage() {
     countryCode: '+91',
     message: ''
   });
+
+  useEffect(() => {
+    const doctor = new URLSearchParams(window.location.search).get('doctor');
+    if (doctor) {
+      setSelectedDoctor(doctor);
+      setFormData(prev => ({
+        ...prev,
+        message: prev.message || `I would like to book an appointment with ${doctor}.`
+      }));
+    }
+  }, []);
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -51,7 +63,7 @@ function ContactPage() {
           name: formData.fullName,
           email: formData.email || 'Not provided',
           phone: `${formData.countryCode} ${formData.phone}`,
-          subject: 'Contact Form Submission',
+          subject: selectedDoctor ? `Appointment Request: ${selectedDoctor}` : 'Contact Form Submission',
           message: formData.message || 'No message provided'
         })
       });
@@ -141,6 +153,12 @@ function ContactPage() {
                   Appointment, partnership enquiry, insurance, or career - we handle all enquiries with care.
                 </p>
 
+                {selectedDoctor && (
+                  <div className='mb-6 rounded-lg border border-[#146F8A]/20 bg-[#E9F4F6] px-4 py-3 text-sm text-[#13315C]'>
+                    Appointment request for <span className='font-semibold'>{selectedDoctor}</span>
+                  </div>
+                )}
+
                 <form onSubmit={handleFormSubmit}>
 
                   {/* Full Name */}
@@ -156,8 +174,8 @@ function ContactPage() {
                       onChange={handleInputChange}
                       required
                       disabled={isSubmitting}
-                  className='w-full px-4 py-2.5 bg-[#E9F4F6] rounded border border-[#D8DEE6] focus:ring-2 focus:ring-[#146F8A]/30 focus:border-[#146F8A] outline-none transition-all disabled:bg-gray-100 text-[#14191F] text-sm'
-                    placeholder='Your full name'
+                      className='w-full px-4 py-2.5 bg-[#E9F4F6] rounded border border-[#D8DEE6] focus:ring-2 focus:ring-[#146F8A]/30 focus:border-[#146F8A] outline-none transition-all disabled:bg-gray-100 text-[#14191F] text-sm'
+                      placeholder='Your full name'
                     />
                   </div>
 
@@ -173,8 +191,8 @@ function ContactPage() {
                       value={formData.email}
                       onChange={handleInputChange}
                       disabled={isSubmitting}
-                  className='w-full px-4 py-2.5 bg-[#E9F4F6] rounded border border-[#D8DEE6] focus:ring-2 focus:ring-[#146F8A]/30 focus:border-[#146F8A] outline-none transition-all disabled:bg-gray-100 text-[#14191F] text-sm'
-                    placeholder='your@email.com (optional)'
+                      className='w-full px-4 py-2.5 bg-[#E9F4F6] rounded border border-[#D8DEE6] focus:ring-2 focus:ring-[#146F8A]/30 focus:border-[#146F8A] outline-none transition-all disabled:bg-gray-100 text-[#14191F] text-sm'
+                      placeholder='your@email.com (optional)'
                     />
                   </div>
 

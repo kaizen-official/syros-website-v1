@@ -102,7 +102,7 @@ function Header() {
     ];
 
     return (
-        <header ref={ref}>
+        <header ref={ref} className='relative'>
             {/* Desktop Header */}
             <motion.div
                 initial={{ y: -100, opacity: 0 }}
@@ -113,24 +113,24 @@ function Header() {
                     boxShadow: visible
                         ? "0 0 24px rgba(20,111,138,0.08), 0 1px 1px rgba(0,0,0,0.04), 0 0 0 1px rgba(20,111,138,0.06)"
                         : "0 10px 40px -10px rgba(0,0,0,0.2)",
-                    width: visible ? "90%" : "100%",
+                    width: visible ? "96%" : "100%",
                     borderRadius: visible ? "0 0 24px 24px" : "0 0 12px 12px",
                 }}
                 transition={{ type: "spring", stiffness: 200, damping: 50 }}
-                className='fixed top-0 left-0 right-0 hidden lg:flex flex-row justify-between mx-auto py-3 px-8 items-center z-50 bg-white/95'
+                className='fixed top-0 left-0 right-0 hidden lg:flex flex-row justify-between mx-auto py-3 px-5 xl:px-7 items-center z-50 bg-white/95'
             >
-                <Link href="/">
-                    <img src="/logo.png" alt="Syros Healthcare" className='w-44 h-auto' />
+                <Link href="/" className='flex-none'>
+                    <img src="/logo.png" alt="Syros Healthcare" className='w-36 xl:w-40 h-auto' />
                 </Link>
 
                 <nav onMouseLeave={() => { setHovered(null); setAboutOpen(false); setCareOpen(false); }}>
-                    <ul className='flex flex-row items-center gap-1 xl:gap-2 text-base xl:text-[15px] text-[#14191F]'>
+                    <ul className='flex flex-row items-center gap-0 xl:gap-1 text-[13px] xl:text-sm text-[#14191F]'>
                         {/* About dropdown */}
                         <li
                             className='relative'
                             onMouseEnter={() => { setAboutOpen(true); setCareOpen(false); setHovered('about'); }}
                         >
-                            <button className='relative px-3 py-2 inline-flex items-center gap-1 font-medium hover:text-[#146F8A] transition-colors duration-200'>
+                            <button className='relative px-2 xl:px-3 py-2 inline-flex items-center gap-1 font-medium hover:text-[#146F8A] transition-colors duration-200'>
                                 About
                                 <IconChevronDown size={14} className={`transition-transform ${aboutOpen ? 'rotate-180' : ''}`} />
                                 {hovered === 'about' && (
@@ -161,7 +161,7 @@ function Header() {
                             className='relative'
                             onMouseEnter={() => { setCareOpen(true); setAboutOpen(false); setHovered('care'); }}
                         >
-                            <button className='relative px-3 py-2 inline-flex items-center gap-1 font-medium hover:text-[#146F8A] transition-colors duration-200'>
+                            <button className='relative px-2 xl:px-3 py-2 inline-flex items-center gap-1 font-medium hover:text-[#146F8A] transition-colors duration-200'>
                                 Patient Care
                                 <IconChevronDown size={14} className={`transition-transform ${careOpen ? 'rotate-180' : ''}`} />
                                 {hovered === 'care' && (
@@ -192,7 +192,7 @@ function Header() {
                                 <Link
                                     href={link.href}
                                     onMouseEnter={() => setHovered(link.href)}
-                                    className='relative px-3 py-2 inline-block font-medium hover:text-[#146F8A] transition-colors duration-200'
+                                    className='relative px-2 xl:px-3 py-2 inline-block font-medium hover:text-[#146F8A] transition-colors duration-200'
                                 >
                                     {hovered === link.href && (
                                         <motion.div
@@ -219,7 +219,7 @@ function Header() {
 
                     <button
                         onClick={() => setShowForm(true)}
-                        className='bg-[#146F8A] text-white ml-2 rounded px-5 py-2.5 text-sm font-semibold inline-flex items-center gap-2 relative overflow-hidden hover:bg-[#0e5268] transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5'
+                        className='bg-[#146F8A] text-white ml-1 rounded px-4 xl:px-5 py-2.5 text-xs xl:text-sm font-semibold inline-flex items-center gap-2 relative overflow-hidden hover:bg-[#0e5268] transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 whitespace-nowrap'
                     >
                         <IconCalendar size={16} />
                         <span className='relative z-10'>Book Appointment</span>

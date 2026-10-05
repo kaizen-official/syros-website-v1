@@ -1,20 +1,20 @@
 import DoctorsClient from './doctorsClient'
 
 export const metadata = {
-  title: 'Our Doctors | Syros Healthcare',
-  description: 'Meet the medical team at Syros Healthcare. Our empanelled doctors span Emergency Medicine, Internal Medicine, Surgery, Orthopaedics, Obstetrics, and more - all practicing in an ethical, governed clinical environment.',
-  keywords: 'Syros doctors, empanelled doctors, find a doctor, medical team, specialists India, hospital doctors, consultants',
+  title: 'Doctors at Gajraj Hospital, Karnal',
+  description: 'Meet specialists at Gajraj Hospital, Karnal, managed by Syros Healthcare. Find physicians and surgeons across medicine, surgery, critical care, women\'s health, orthopaedics, cardiology and plastic surgery.',
+  keywords: 'Gajraj Hospital doctors, doctors in Karnal, physician in Karnal, surgeon in Karnal, cardiologist in Karnal, gynaecologist in Karnal, orthopaedic surgeon in Karnal',
   openGraph: {
-    title: 'Our Doctors | Syros Healthcare',
-    description: 'Meet the medical team at Syros Healthcare - practicing in an ethical, governed clinical environment.',
+    title: 'Doctors at Gajraj Hospital, Karnal',
+    description: 'Meet the specialist medical team at Gajraj Hospital, Karnal, managed by Syros Healthcare.',
     url: 'https://www.syroshealthcare.in/doctors',
     siteName: 'Syros Healthcare',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=1200&q=80',
+        url: '/doctors/dr-aabid-amin-bhat.png',
         width: 1200,
         height: 630,
-        alt: 'Doctors at Syros Healthcare',
+        alt: 'Doctors at Gajraj Hospital, Karnal',
       },
     ],
     locale: 'en_IN',
@@ -22,9 +22,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Our Doctors | Syros Healthcare',
-    description: 'Meet the medical team at Syros Healthcare - ethical, experienced, and empanelled.',
-    images: ['https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=1200&q=80'],
+    title: 'Doctors at Gajraj Hospital, Karnal',
+    description: 'Meet the specialist medical team at Gajraj Hospital, Karnal, managed by Syros Healthcare.',
+    images: ['/doctors/dr-aabid-amin-bhat.png'],
   },
   alternates: {
     canonical: 'https://www.syroshealthcare.in/doctors',
