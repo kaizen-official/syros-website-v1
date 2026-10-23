@@ -71,8 +71,8 @@ function CareersPage() {
       const data = await response.json();
 
       if (response.ok && data.success) {
-        setShowThankYou(true);
         resetForm();
+        window.location.assign('/');
       } else {
         alert("Error: " + (data.error || 'Failed to submit application'));
       }

@@ -72,7 +72,7 @@ function ContactPage() {
 
       if (result.success) {
         resetForm();
-        setShowThankYou(true);
+        window.location.assign('/');
       } else {
         console.error('Form submission failed:', result.error);
         alert('Failed to submit form. Please try again.');

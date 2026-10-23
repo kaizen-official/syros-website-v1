@@ -68,10 +68,8 @@ function FloatCta() {
 
       const result = await response.json()
       if (result.success) {
-        setShowForm(false)
-        setShowThankYou(true)
-        setIsSubmitting(false)
         form.reset()
+        window.location.assign('/')
       } else {
         alert('Failed to submit. Please try again.')
         setIsSubmitting(false)

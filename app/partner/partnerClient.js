@@ -55,8 +55,8 @@ export default function PartnerClient() {
       })
       const data = await res.json()
       if (res.ok && data.success) {
-        setShowThankYou(true)
         setFormData({ name: '', phone: '', email: '', hospital: '', location: '', message: '' })
+        window.location.assign('/')
       } else {
         alert('Error: ' + (data.error || 'Failed to submit. Please try again.'))
       }

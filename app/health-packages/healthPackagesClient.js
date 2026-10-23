@@ -32,9 +32,9 @@ export default function HealthPackagesClient() {
       })
       const data = await res.json()
       if (res.ok && data.success) {
-        setShowThanks(true)
         setBooking({ name: '', phone: '', package: '' })
         setSelected(null)
+        window.location.assign('/')
       } else {
         alert('Failed to submit. Please try again.')
       }
