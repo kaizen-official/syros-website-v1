@@ -210,11 +210,11 @@ function Header() {
 
                 <div className='flex flex-row items-center gap-3'>
                     {/* <Link
-                        href="tel:+919999999999"
+                        href="tel:+919091444422"
                         className='hidden xl:flex items-center gap-1.5 text-sm font-semibold text-[#146F8A] hover:text-[#0e5268] transition-colors duration-200'
                     >
                         <IconPhone size={16} />
-                        Emergency: +91 99999 99999
+                        Emergency: +91 90914 44422
                     </Link> */}
 
                     <button
@@ -299,8 +299,8 @@ function Header() {
                                 </ul>
 
                                 <div className='flex flex-col gap-3 mt-5 pt-5 border-t border-gray-100'>
-                                    <Link href="tel:+919999999999" className='text-center border border-[#146F8A]/30 rounded px-4 py-2.5 text-sm font-medium text-[#146F8A]'>
-                                        Emergency: +91 99999 99999
+                                    <Link href="tel:+919091444422" className='text-center border border-[#146F8A]/30 rounded px-4 py-2.5 text-sm font-medium text-[#146F8A]'>
+                                        Emergency: +91 90914 44422
                                     </Link>
 
                                     <button

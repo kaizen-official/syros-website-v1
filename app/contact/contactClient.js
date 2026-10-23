@@ -261,8 +261,8 @@ function ContactPage() {
                 <div className='mt-8 text-center pt-8 border-t border-gray-200'>
                   <p className='text-gray-600 text-sm'>
                     24/7 Emergency Line:{' '}
-                    <a href='tel:+919999999999' className='text-[#146F8A] font-semibold hover:underline'>
-                      +91 99999 99999
+                    <a href='tel:+919091444422' className='text-[#146F8A] font-semibold hover:underline'>
+                      +91 90914 44422
                     </a>
                   </p>
                 </div>
@@ -317,28 +317,28 @@ function ContactPage() {
                     <IconPhone size={18} className='text-[#ACFEC0] flex-shrink-0 mt-0.5' />
                     <div>
                       <p className='text-xs text-gray-500 mb-0.5'>24/7 Emergency</p>
-                      <a href='tel:+919999999999' className='text-[#14191F] font-semibold text-sm hover:text-[#146F8A] transition-colors'>+91 99999 99999</a>
+                      <a href='tel:+919091444422' className='text-[#14191F] font-semibold text-sm hover:text-[#146F8A] transition-colors'>+91 90914 44422</a>
                     </div>
                   </div>
                   <div className='flex gap-3 items-start'>
                     <IconPhone size={18} className='text-[#146F8A] flex-shrink-0 mt-0.5' />
                     <div>
                       <p className='text-xs text-gray-500 mb-0.5'>OPD / General</p>
-                      <a href='tel:+919999999998' className='text-[#14191F] text-sm hover:text-[#146F8A] transition-colors'>+91 99999 99998</a>
+                      <a href='tel:+919671933300' className='text-[#14191F] text-sm hover:text-[#146F8A] transition-colors'>+91 96719 33300</a>
                     </div>
                   </div>
                   <div className='flex gap-3 items-start'>
                     <IconMail size={18} className='text-[#146F8A] flex-shrink-0 mt-0.5' />
                     <div>
                       <p className='text-xs text-gray-500 mb-0.5'>Email</p>
-                      <a href='mailto:info@syroshealthcare.in' className='text-[#14191F] text-sm hover:text-[#146F8A] transition-colors'>info@syroshealthcare.in</a>
+                      <a href='mailto:admin@syroshealthcare.com' className='text-[#14191F] text-sm hover:text-[#146F8A] transition-colors'>admin@syroshealthcare.com</a>
                     </div>
                   </div>
                   <div className='flex gap-3 items-start'>
                     <IconMapPin size={18} className='text-[#146F8A] flex-shrink-0 mt-0.5' />
                     <div>
                       <p className='text-xs text-gray-500 mb-0.5'>Location</p>
-                      <p className='text-[#14191F] text-sm'>India</p>
+                      <p className='text-[#14191F] text-sm'>Gajraj Hospital, Karnal, Haryana</p>
                     </div>
                   </div>
                   <div className='flex gap-3 items-start'>
@@ -360,7 +360,8 @@ function ContactPage() {
       <section className='py-0'>
         <div className='w-full h-96'>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.6640215063494!2d77.083597!3d28.669777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0468e9087c67%3A0xcdab21c4083d1b26!2sVerticale%20Elevators!5e0!3m2!1sen!2sin!4v1764846445193!5m2!1sen!2sin"
+            title="Gajraj Hospital, Karnal location"
+            src="https://maps.google.com/maps?q=Gajraj%20Hospital%2C%20Karnal%2C%20Haryana&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -408,8 +409,8 @@ function ContactPage() {
 
               <div className='bg-[#E9F4F6] rounded p-3.5'>
                 <p className='text-xs text-gray-500 mb-1'>For urgent care:</p>
-                <a href='tel:+919999999999' className='text-[#146F8A] font-semibold hover:underline text-sm'>
-                  +91 99999 99999 (Emergency)
+                <a href='tel:+919091444422' className='text-[#146F8A] font-semibold hover:underline text-sm'>
+                  +91 90914 44422 (Emergency)
                 </a>
               </div>
             </motion.div>

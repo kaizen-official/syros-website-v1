@@ -17,7 +17,7 @@ function Footer() {
         {/* WhatsApp Floating Button */}
         <div className="hidden md:block fixed bottom-6 right-6 z-40">
           <button
-            onClick={() => window.open("https://wa.me/919999999999", "_blank")}
+            onClick={() => window.open("https://wa.me/919091444422", "_blank")}
             className="bg-green-500 hover:bg-green-600 p-3 rounded-full shadow-lg transition-colors duration-200"
             aria-label="Chat on WhatsApp"
           >
@@ -41,14 +41,15 @@ function Footer() {
             {/* Social Links */}
             <div className='flex gap-3'>
               {[
-                { href: "https://www.facebook.com/syroshealthcare", icon: FaFacebook, color: 'bg-[#146F8A]' },
-                { href: "https://www.instagram.com/syroshealthcare/", icon: FaInstagram, color: 'bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500' },
-                { href: "https://www.linkedin.com/company/syroshealthcare", icon: FaLinkedin, color: 'bg-[#2A6FB0]' },
-                { href: "https://www.youtube.com/@syroshealthcare", icon: FaYoutube, color: 'bg-red-600' },
-              ].map(({ href, icon: Icon, color }) => (
+                { label: 'Facebook', href: "https://www.facebook.com/profile.php?id=61588756391749", icon: FaFacebook, color: 'bg-[#146F8A]' },
+                { label: 'Instagram', href: "https://www.instagram.com/gajraj_hospital_karnal/", icon: FaInstagram, color: 'bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500' },
+                { label: 'LinkedIn', href: "https://www.linkedin.com/in/vishal-sapra-297285446", icon: FaLinkedin, color: 'bg-[#2A6FB0]' },
+                { label: 'YouTube', href: "https://www.youtube.com/@syroshealthcare", icon: FaYoutube, color: 'bg-red-600' },
+              ].map(({ href, icon: Icon, color, label }) => (
                 <motion.a
                   key={href}
                   href={href}
+                  aria-label={label}
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, y: -2 }}
@@ -113,8 +114,8 @@ function Footer() {
                 <FaAmbulance size={18} className='text-red-400 flex-shrink-0 mt-0.5' />
                 <div>
                   <p className='text-xs text-gray-500 mb-0.5'>24/7 Emergency</p>
-                  <a href="tel:+919999999999" className='text-white font-semibold hover:text-[#ACFEC0] transition-colors text-sm'>
-                    +91 99999 99999
+                  <a href="tel:+919091444422" className='text-white font-semibold hover:text-[#ACFEC0] transition-colors text-sm'>
+                    +91 90914 44422
                   </a>
                 </div>
               </li>
@@ -122,21 +123,21 @@ function Footer() {
                 <FaPhoneAlt size={16} className='text-[#ACFEC0] flex-shrink-0 mt-0.5' />
                 <div>
                   <p className='text-xs text-gray-500 mb-0.5'>OPD / General</p>
-                  <a href="tel:+919999999998" className='text-gray-400 hover:text-[#ACFEC0] transition-colors text-sm'>
-                    +91 99999 99998
+                  <a href="tel:+919671933300" className='text-gray-400 hover:text-[#ACFEC0] transition-colors text-sm'>
+                    +91 96719 33300
                   </a>
                 </div>
               </li>
               <li className='flex items-center gap-3'>
                 <MdEmail size={18} className='text-[#ACFEC0] flex-shrink-0' />
-                <a href="mailto:info@syroshealthcare.in" className='text-gray-400 hover:text-[#ACFEC0] transition-colors text-sm break-all'>
-                  info@syroshealthcare.in
+                <a href="mailto:admin@syroshealthcare.com" className='text-gray-400 hover:text-[#ACFEC0] transition-colors text-sm break-all'>
+                  admin@syroshealthcare.com
                 </a>
               </li>
               <li className='flex items-start gap-3'>
                 <FaMapMarkerAlt size={16} className='text-[#ACFEC0] flex-shrink-0 mt-1' />
                 <span className='text-gray-400 text-sm'>
-                  India
+                  Gajraj Hospital, Karnal, Haryana
                 </span>
               </li>
             </ul>

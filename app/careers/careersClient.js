@@ -586,8 +586,8 @@ function CareersPage() {
                 <p className='text-xs text-gray-600 mb-2'>
                   Email your resume to complete your application:
                 </p>
-                <a href='mailto:careers@syroshealthcare.in' className='text-[#146F8A] font-semibold hover:underline text-sm'>
-                  careers@syroshealthcare.in
+                <a href='mailto:admin@syroshealthcare.com' className='text-[#146F8A] font-semibold hover:underline text-sm'>
+                  admin@syroshealthcare.com
                 </a>
                 <p className='text-xs text-gray-400 mt-1'>
                   Include your name and the role in the subject line

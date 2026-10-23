@@ -229,9 +229,7 @@ function AboutPage() {
           <div className='max-w-3xl mx-auto'>
             <div className='bg-white rounded border border-[#D8DEE6] shadow-lg p-8 flex flex-col md:flex-row gap-8 items-start'>
               <div className='flex-shrink-0'>
-                <div className='w-24 h-24 rounded bg-[#E9F4F6] border border-[#D8DEE6] flex items-center justify-center'>
-                  <span className='text-4xl font-light text-[#146F8A]' style={{ fontFamily: 'var(--font-newsreader), Georgia, serif' }}>A</span>
-                </div>
+                <img src='/doctors/dr-aabid-amin-bhat.png' alt='Dr. Aabid Amin Bhat' className='w-32 h-40 rounded border border-[#D8DEE6] object-cover object-top' />
               </div>
               <div>
                 <p className='text-xs tracking-widest uppercase text-[#146F8A] mb-1 font-mono'>Founder & Chairman</p>

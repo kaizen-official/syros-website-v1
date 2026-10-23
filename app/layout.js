@@ -106,13 +106,24 @@ export default function RootLayout({ children }) {
     url: 'https://www.syroshealthcare.in',
     logo: 'https://www.syroshealthcare.in/logo.png',
     description: 'Healthcare operations and management company partnering with hospitals to deliver clinical excellence, ethical governance, and patient-centric care.',
-    telephone: '+919999999999',
-    email: 'info@syroshealthcare.in',
+    telephone: '+919091444422',
+    email: 'admin@syroshealthcare.com',
     address: {
       '@type': 'PostalAddress',
+      addressLocality: 'Karnal',
+      addressRegion: 'Haryana',
       addressCountry: 'IN',
     },
-    sameAs: [],
+    contactPoint: [
+      { '@type': 'ContactPoint', telephone: '+919091444422', contactType: 'customer service' },
+      { '@type': 'ContactPoint', telephone: '+919671933300', contactType: 'customer service' },
+    ],
+    sameAs: [
+      'https://www.youtube.com/@syroshealthcare',
+      'https://www.instagram.com/gajraj_hospital_karnal/',
+      'https://www.facebook.com/profile.php?id=61588756391749',
+      'https://www.linkedin.com/in/vishal-sapra-297285446',
+    ],
     offers: {
       '@type': 'AggregateOffer',
       offerCount: '3',

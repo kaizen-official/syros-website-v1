@@ -271,7 +271,7 @@ export default function PartnerClient() {
               <p className='text-sm text-gray-600 mb-4'>
                 Thank you for your interest in partnering with Syros Healthcare. Our team will reach out within 24 hours.
               </p>
-              <p className='text-xs text-gray-400'>For urgent discussions, call us at +91 99999 99999</p>
+              <p className='text-xs text-gray-400'>For urgent discussions, call us at +91 90914 44422</p>
             </motion.div>
           </motion.div>
         )}

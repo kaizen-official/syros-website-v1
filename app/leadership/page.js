@@ -1,8 +1,8 @@
 import LeadershipClient from './leadershipClient'
 
 export const metadata = {
-  title: 'Leadership | Dr. Aabid Amin Bhat | Syros Healthcare',
-  description: 'Meet Dr. Aabid Amin Bhat, Founder-Director and Chairman & CEO of Syros Healthcare. Learn about the medical leadership driving ethical hospital governance and transformation across India.',
+  title: 'Our Leadership Team',
+  description: 'Meet Dr. Aabid Amin Bhat, Mohit Chawla, Dr. Mir Mehfooza Gani, Vishal Sapra and Advocate Raghav Mehta, leading Syros Healthcare and Gajraj Hospital, Karnal.',
   keywords: 'Dr Aabid Amin Bhat, Syros Healthcare leadership, founder CEO, medical leadership India, hospital management leader',
   openGraph: {
     title: 'Leadership | Syros Healthcare',

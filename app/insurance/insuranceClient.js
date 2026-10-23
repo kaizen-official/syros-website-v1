@@ -142,13 +142,13 @@ export default function InsuranceClient() {
                 Our insurance desk assists with panel verification, pre-authorisation, documentation, and claim queries at every Syros-managed hospital.
               </p>
               <div className='space-y-3 mb-6'>
-                <a href='tel:+919999999998' className='flex items-center gap-3 text-sm text-white hover:text-[#ACFEC0] transition-colors'>
+                <a href='tel:+919671933300' className='flex items-center gap-3 text-sm text-white hover:text-[#ACFEC0] transition-colors'>
                   <IconPhone size={16} className='text-[#ACFEC0]' />
-                  +91 99999 99998 (Insurance Desk)
+                  +91 96719 33300 (Insurance Desk)
                 </a>
-                <a href='mailto:insurance@syroshealthcare.in' className='flex items-center gap-3 text-sm text-white hover:text-[#ACFEC0] transition-colors'>
+                <a href='mailto:admin@syroshealthcare.com' className='flex items-center gap-3 text-sm text-white hover:text-[#ACFEC0] transition-colors'>
                   <IconFileText size={16} className='text-[#ACFEC0]' />
-                  insurance@syroshealthcare.in
+                  admin@syroshealthcare.com
                 </a>
               </div>
               <Link href='/contact' className='inline-block bg-[#ACFEC0] text-[#14191F] px-5 py-2.5 rounded text-sm font-semibold hover:bg-white transition-colors'>

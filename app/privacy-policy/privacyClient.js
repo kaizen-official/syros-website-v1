@@ -228,13 +228,13 @@ function PrivacyPage() {
                   <span className="font-semibold">Company:</span> Syros Healthcare
                 </li>
                 <li>
-                  <span className="font-semibold">Email:</span> info@syroshealthcare.in
+                  <span className="font-semibold">Email:</span> admin@syroshealthcare.com
                 </li>
                 <li>
-                  <span className="font-semibold">Phone:</span> +91 99999 99999
+                  <span className="font-semibold">Phone:</span> +91 90914 44422
                 </li>
                 <li>
-                  <span className="font-semibold">Address:</span> India
+                  <span className="font-semibold">Address:</span> Gajraj Hospital, Karnal, Haryana
                 </li>
               </ul>
             </div>

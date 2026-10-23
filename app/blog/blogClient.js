@@ -108,8 +108,8 @@ export default function BlogClient() {
             <Link href='/contact' className='bg-[#146F8A] text-white px-6 py-3 rounded text-sm font-semibold hover:bg-[#0e5268] transition-colors'>
               Book Appointment
             </Link>
-            <a href='tel:+919999999999' className='border border-[#146F8A] text-[#146F8A] px-6 py-3 rounded text-sm font-semibold hover:bg-white transition-colors'>
-              Emergency: +91 99999 99999
+            <a href='tel:+919091444422' className='border border-[#146F8A] text-[#146F8A] px-6 py-3 rounded text-sm font-semibold hover:bg-white transition-colors'>
+              Emergency: +91 90914 44422
             </a>
           </div>
         </div>

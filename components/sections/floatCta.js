@@ -100,7 +100,7 @@ function FloatCta() {
 
           {/* WhatsApp */}
           <Link
-            href="https://wa.me/919999999999"
+            href="https://wa.me/919091444422"
             target="_blank"
             rel="noopener noreferrer"
             className="w-1/3 bg-green-500 hover:bg-green-600 flex flex-col items-center justify-center gap-1 transition-colors py-3.5"
@@ -111,7 +111,7 @@ function FloatCta() {
 
           {/* Call */}
           <Link
-            href="tel:+919999999999"
+            href="tel:+919091444422"
             className="w-1/3 bg-white flex flex-col items-center justify-center gap-1 hover:bg-gray-50 transition-colors border-l border-gray-100 py-3.5"
           >
             <FaPhone className="text-lg text-[#146F8A] rotate-90" />

@@ -5,6 +5,7 @@ import PageHero from '@/components/layout/pageHero'
 import { motion } from 'motion/react'
 import { IconQuote, IconStethoscope, IconTarget, IconUsers, IconAward } from '@tabler/icons-react'
 import Link from 'next/link'
+import LeadershipTeam from '@/components/sections/leadership-team'
 
 const highlights = [
   { icon: IconStethoscope, title: 'Clinical Vision', desc: 'Building hospitals where medical decisions are ethical, evidence-based, and patient-first — never driven by commercial pressure.' },
@@ -48,7 +49,7 @@ export default function LeadershipClient() {
             >
               <div className='relative'>
                 <img
-                  src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80"
+                  src="/doctors/dr-aabid-amin-bhat.png"
                   alt="Dr. Aabid Amin Bhat"
                   className='w-full aspect-[4/5] object-cover rounded border border-[#D8DEE6] shadow-lg'
                 />
@@ -113,6 +114,8 @@ export default function LeadershipClient() {
           </div>
         </div>
       </section>
+
+      <LeadershipTeam />
 
       {/* Leadership Focus */}
       <section className='py-16 bg-white/60'>

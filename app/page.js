@@ -59,6 +59,15 @@ export const metadata = {
 export default function Home() {
   return (
     <BgLayout>
+      <section aria-labelledby='maintenance-heading' className='relative z-10 mt-24 mx-4 md:mx-8 rounded-xl bg-[#13315C] border border-[#ACFEC0]/30 px-5 py-8 md:py-10 text-center text-white'>
+        <h2 id='maintenance-heading' className='text-3xl md:text-5xl font-semibold text-[#ACFEC0]'>Website under maintenance</h2>
+        <p className='mt-4 text-sm md:text-base text-white/80'>We are updating our website. For appointments and enquiries, please contact our team.</p>
+        <div className='mt-5 flex flex-wrap justify-center gap-x-6 gap-y-3 text-base font-semibold'>
+          <a href='tel:+919091444422' className='hover:underline'>+91 90914 44422</a>
+          <a href='tel:+919671933300' className='hover:underline'>+91 96719 33300</a>
+          <a href='mailto:admin@syroshealthcare.com' className='break-all hover:underline'>admin@syroshealthcare.com</a>
+        </div>
+      </section>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
         {/* Background Video */}

@@ -127,9 +127,9 @@ function ContactForm() {
             {/* Emergency contact */}
             <div className='mt-10 border border-white/20 rounded p-5 bg-white/5 backdrop-blur-sm'>
               <p className='text-xs tracking-widest uppercase text-[#ACFEC0] mb-2 font-mono'>24/7 Emergency</p>
-              <a href="tel:+919999999999" className='text-2xl font-semibold text-white hover:text-[#ACFEC0] transition-colors flex items-center gap-2'>
+              <a href="tel:+919091444422" className='text-2xl font-semibold text-white hover:text-[#ACFEC0] transition-colors flex items-center gap-2'>
                 <IconPhone size={20} />
-                +91 99999 99999
+                +91 90914 44422
               </a>
             </div>
           </motion.div>
@@ -311,8 +311,8 @@ function ContactForm() {
 
               <div className="bg-[#E9F4F6] rounded p-3.5 mb-4">
                 <p className="text-xs text-gray-500 mb-1">For urgent care or emergency:</p>
-                <a href="tel:+919999999999" className="text-[#146F8A] font-semibold text-sm hover:underline">
-                  +91 99999 99999
+                <a href="tel:+919091444422" className="text-[#146F8A] font-semibold text-sm hover:underline">
+                  +91 90914 44422
                 </a>
               </div>
 
