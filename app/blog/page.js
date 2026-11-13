@@ -1,4 +1,5 @@
 import BlogClient from './blogClient'
+import { articles } from './articles.json'
 
 export const metadata = {
   title: 'Health Education & Blog | Syros Healthcare',
@@ -17,5 +18,9 @@ export const metadata = {
 }
 
 export default function BlogPage() {
-  return <BlogClient />
+  const summaries = articles.map(({ slug, title, category, readTime, date, excerpt, image }) => ({
+    slug, title, category, readTime, date, excerpt, image,
+  }))
+
+  return <BlogClient articles={summaries} />
 }

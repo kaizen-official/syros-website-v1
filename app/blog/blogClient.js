@@ -2,19 +2,17 @@
 
 import BgLayout from '@/components/layout/bgLayout'
 import PageHero from '@/components/layout/pageHero'
-import articlesData from './articles.json'
 import { motion } from 'motion/react'
 import { useState } from 'react'
 import Link from 'next/link'
 
-const categories = ['All', ...new Set(articlesData.articles.map((a) => a.category))]
-
-export default function BlogClient() {
+export default function BlogClient({ articles }) {
   const [activeCategory, setActiveCategory] = useState('All')
+  const categories = ['All', ...new Set(articles.map((article) => article.category))]
 
   const filtered = activeCategory === 'All'
-    ? articlesData.articles
-    : articlesData.articles.filter((a) => a.category === activeCategory)
+    ? articles
+    : articles.filter((article) => article.category === activeCategory)
 
   return (
     <BgLayout>
@@ -75,14 +73,15 @@ export default function BlogClient() {
                     <span>{article.readTime} read</span>
                   </div>
                   <h2 className='text-base font-semibold text-[#14191F] mb-2 leading-snug group-hover:text-[#146F8A] transition-colors'>
-                    {article.title}
+                    <Link href={`/blog/${article.slug}`}>{article.title}</Link>
                   </h2>
                   <p className='text-xs text-gray-500 leading-relaxed flex-1 mb-4'>{article.excerpt}</p>
                   <Link
-                    href='/contact'
+                    href={`/blog/${article.slug}`}
+                    aria-label={`Read article: ${article.title}`}
                     className='text-xs text-[#146F8A] font-semibold hover:underline inline-flex items-center gap-1'
                   >
-                    Consult a specialist →
+                    Read article →
                   </Link>
                 </div>
               </motion.article>

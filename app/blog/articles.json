@@ -4,100 +4,288 @@
       "slug": "preventive-health-checkups",
       "title": "Why Preventive Health Checkups Matter",
       "category": "Preventive Care",
-      "readTime": "5 min",
+      "readTime": "1 min",
       "date": "2026-05-15",
       "excerpt": "Early detection of diabetes, hypertension, and cardiac risk can prevent emergencies later. Learn what a basic health checkup should include and how often you need one.",
-      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "What happens at a preventive visit",
+          "text": "A routine visit gives you time to review your health history, family history, medicines and vaccinations. Your clinician may check your blood pressure and discuss whether screening for diabetes, high cholesterol or certain cancers makes sense for you."
+        },
+        {
+          "heading": "Which tests make sense for you?",
+          "text": "Screening needs vary with age, health history and risk factors. Bring any past results and ask which tests you are due for, when to repeat them and how you will receive the results. This can help you focus on tests that are useful for you."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CDC · Preventive care",
+          "url": "https://www.cdc.gov/chronic-disease/prevention/preventive-care.html"
+        }
+      ]
     },
     {
       "slug": "diabetes-care-basics",
       "title": "Living Well With Diabetes: A Practical Guide",
       "category": "Diabetes",
-      "readTime": "6 min",
+      "readTime": "1 min",
       "date": "2026-05-08",
       "excerpt": "Diabetes management is not just about medication — diet, exercise, regular monitoring, and foot care all play a critical role in preventing complications.",
-      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "Make a daily plan",
+          "text": "Ask your care team what blood sugar range to aim for and when to check it. Keep a record if monitoring is part of your plan, take medicines as prescribed and discuss eating and activity habits that fit your routine."
+        },
+        {
+          "heading": "Plan your follow-up checks",
+          "text": "Diabetes care can include A1C testing and regular eye, kidney and foot checks. Your schedule depends on your treatment and results. Ask your clinician when your next checks are due and let them know about new symptoms or trouble following the plan."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CDC · Your diabetes care schedule",
+          "url": "https://www.cdc.gov/diabetes/treatment/your-diabetes-care-schedule.html"
+        }
+      ]
     },
     {
       "slug": "hypertension-silent-killer",
       "title": "Hypertension: The Silent Killer You Can Control",
       "category": "Heart Health",
-      "readTime": "4 min",
+      "readTime": "1 min",
       "date": "2026-04-28",
-      "excerpt": "High blood pressure often has no symptoms until it causes a stroke or heart attack. Understand your numbers, lifestyle changes, and when to seek medical help.",
-      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80"
+      "excerpt": "High blood pressure usually has no symptoms. Learn how it is detected and what to discuss with your care team.",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "Why measuring matters",
+          "text": "High blood pressure usually causes no symptoms. Over time it can damage the heart, brain and kidneys. Because readings naturally vary, a clinician may repeat the measurement or recommend a validated home monitor to help confirm a diagnosis."
+        },
+        {
+          "heading": "Build a follow-up plan",
+          "text": "Ask how often to check your blood pressure and which readings to share with your care team. Regular activity, less salt in meals and taking prescribed medicine as directed can all play a part in managing blood pressure."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CDC · About high blood pressure",
+          "url": "https://www.cdc.gov/high-blood-pressure/about/index.html"
+        }
+      ]
     },
     {
       "slug": "heart-attack-warning-signs",
       "title": "Heart Attack Warning Signs — Act Fast",
       "category": "Emergency",
-      "readTime": "4 min",
+      "readTime": "1 min",
       "date": "2026-04-20",
       "excerpt": "Chest pain, breathlessness, sweating, and pain radiating to the arm or jaw are warning signs. Every minute counts — know when to call emergency services.",
-      "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "Call emergency services immediately",
+          "text": "If you suspect a heart attack, call local emergency services. Chest pressure or discomfort that lasts or keeps coming back can be a warning sign. Discomfort may also be felt in the arms, jaw, back, neck or upper abdomen."
+        },
+        {
+          "heading": "Look for other signs",
+          "text": "Shortness of breath may happen with or without chest discomfort. A cold sweat, nausea or light-headedness can also occur. Symptoms vary, and some begin gradually. Seek help promptly even if you are unsure what is causing them."
+        }
+      ],
+      "sources": [
+        {
+          "label": "American Heart Association · Heart attack warning signs",
+          "url": "https://www.heart.org/en/about-us/heart-attack-and-stroke-symptoms"
+        }
+      ]
     },
     {
       "slug": "stroke-symptoms-fast",
       "title": "Recognising Stroke: The FAST Method",
       "category": "Emergency",
-      "readTime": "3 min",
+      "readTime": "1 min",
       "date": "2026-04-12",
       "excerpt": "Face drooping, Arm weakness, Speech difficulty, Time to call emergency. Stroke treatment is time-sensitive — learn the FAST checklist today.",
-      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "Check face, arms and speech",
+          "text": "Ask the person to smile and look for drooping on one side. Ask them to raise both arms and see if one drifts down. Ask them to repeat a simple sentence and listen for slurred or unusual speech."
+        },
+        {
+          "heading": "Call emergency services right away",
+          "text": "Any of these sudden changes can signal a stroke. Sudden loss of balance or vision changes can also be warning signs. Call local emergency services immediately, even if the symptoms clear. Note when the symptoms first appeared if you know."
+        }
+      ],
+      "sources": [
+        {
+          "label": "American Heart Association · Stroke warning signs",
+          "url": "https://www.heart.org/en/about-us/heart-attack-and-stroke-symptoms"
+        }
+      ]
     },
     {
       "slug": "when-to-visit-emergency",
       "title": "When Should You Visit the Emergency Department?",
       "category": "Emergency",
-      "readTime": "5 min",
+      "readTime": "1 min",
       "date": "2026-03-30",
       "excerpt": "Not every illness needs the ER, but some absolutely do. Learn the difference between urgent care situations and true medical emergencies.",
-      "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "When to get emergency help",
+          "text": "Call local emergency services for severe chest pain, severe difficulty breathing, suspected stroke or loss of consciousness. Severe injury, heavy bleeding and a serious allergic reaction with breathing difficulty also need immediate help."
+        },
+        {
+          "heading": "When a clinic may be appropriate",
+          "text": "A stable, minor illness or injury may be suitable for a primary care or urgent care visit. If you are unsure where to go, ask a healthcare professional. If symptoms are severe or worsening quickly, seek emergency help."
+        }
+      ],
+      "sources": [
+        {
+          "label": "MedlinePlus · When to use the emergency room",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000593.htm"
+        }
+      ]
     },
     {
       "slug": "icu-myths-debunked",
       "title": "ICU Myths Debunked: What Families Should Know",
       "category": "Critical Care",
-      "readTime": "6 min",
+      "readTime": "1 min",
       "date": "2026-03-18",
       "excerpt": "ICU care can feel overwhelming for families. We address common misconceptions about ventilators, sedation, visiting hours, and recovery timelines.",
-      "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "Does every patient need the same equipment?",
+          "text": "An ICU provides close monitoring and specialised support for people who are seriously ill. The team may use equipment to track vital signs or support breathing. Ask which equipment your loved one needs and what it does."
+        },
+        {
+          "heading": "Are visiting rules the same in every ICU?",
+          "text": "Visiting arrangements vary by unit and may change based on patient needs. Ask when you can visit, who can receive updates and when the team expects to speak with you next. Writing down questions can make those conversations easier."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Chelsea and Westminster Hospital NHS Foundation Trust · ICU guide for families",
+          "url": "https://www.chelwest.nhs.uk/your-visit/patient-leaflets/icu/intensive-care-unit-icu-information-for-family-and-friends"
+        }
+      ]
     },
     {
       "slug": "seasonal-fever-guide",
       "title": "Seasonal Fever: When to Worry and When to Rest",
       "category": "General Health",
-      "readTime": "4 min",
+      "readTime": "1 min",
       "date": "2026-03-05",
-      "excerpt": "Most seasonal fevers resolve with rest and hydration. But persistent high fever, rash, or breathing difficulty needs medical evaluation — here's your guide.",
-      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80"
+      "excerpt": "Many adult fevers improve with rest and fluids. Learn when to contact a clinician and when to get emergency help.",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "Caring for a fever at home",
+          "text": "Many adult fevers improve with rest and enough fluids. Keep track of when the fever began and how you feel. If the fever is getting worse or is failing to improve, contact a healthcare professional."
+        },
+        {
+          "heading": "When to seek immediate help",
+          "text": "Seek emergency help if the fever comes with severe difficulty breathing or loss of consciousness. Babies and children need age-specific assessment, so speak to a healthcare professional about a fever in a child."
+        }
+      ],
+      "sources": [
+        {
+          "label": "NHS · Fever in adults",
+          "url": "https://www.nhs.uk/symptoms/fever-in-adults/"
+        },
+        {
+          "label": "MedlinePlus · When to use the emergency room",
+          "url": "https://medlineplus.gov/ency/patientinstructions/000593.htm"
+        }
+      ]
     },
     {
       "slug": "dengue-malaria-prevention",
       "title": "Dengue & Malaria: Prevention and Early Signs",
       "category": "Seasonal Health",
-      "readTime": "5 min",
+      "readTime": "1 min",
       "date": "2026-02-22",
-      "excerpt": "Monsoon brings vector-borne diseases. Learn prevention steps, early symptoms, and when platelet counts and hospital admission become necessary.",
-      "image": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80"
+      "excerpt": "Learn how to reduce mosquito bites, when to get a fever assessed, and which warning signs need urgent care.",
+      "image": "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "Reduce mosquito bites",
+          "text": "Use mosquito repellent as directed, wear clothing that covers exposed skin and use screens or bed nets. Cover or empty containers that collect water to limit mosquito breeding around your home."
+        },
+        {
+          "heading": "Get a fever assessed promptly",
+          "text": "Dengue and malaria can both cause fever and headache, and symptoms alone may be difficult to distinguish. Tell your clinician where you live or have travelled recently. Severe abdominal pain, persistent vomiting or bleeding are warning signs that need urgent care, including after a dengue fever has subsided."
+        }
+      ],
+      "sources": [
+        {
+          "label": "WHO · Dengue",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+        },
+        {
+          "label": "WHO · Malaria",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/malaria"
+        }
+      ]
     },
     {
       "slug": "kidney-health-essentials",
       "title": "Protecting Your Kidneys: What Everyone Should Know",
       "category": "Organ Health",
-      "readTime": "5 min",
+      "readTime": "1 min",
       "date": "2026-02-10",
       "excerpt": "Diabetes and hypertension are the leading causes of kidney disease. Regular screening, hydration, and medication adherence can protect kidney function.",
-      "image": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "Know when to ask about testing",
+          "text": "Early kidney disease can go unnoticed. If you have diabetes, high blood pressure, heart disease or a family history of kidney failure, ask your clinician whether you should be tested and how often."
+        },
+        {
+          "heading": "Understand the two common checks",
+          "text": "A blood test estimates how well your kidneys filter, and a urine test can look for a protein called albumin. Ask what your results mean and how managing blood pressure or blood sugar fits into your care plan."
+        }
+      ],
+      "sources": [
+        {
+          "label": "NIDDK · Chronic kidney disease tests and diagnosis",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/tests-diagnosis"
+        },
+        {
+          "label": "NIDDK · Diabetic kidney disease",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease"
+        }
+      ]
     },
     {
       "slug": "weight-loss-lifestyle",
       "title": "Sustainable Weight Loss: Beyond Crash Diets",
       "category": "Lifestyle",
-      "readTime": "6 min",
+      "readTime": "1 min",
       "date": "2026-01-28",
       "excerpt": "Lasting weight management combines balanced nutrition, regular activity, sleep, and stress management — not extreme restriction or unproven supplements.",
-      "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=800&q=80",
+      "sections": [
+        {
+          "heading": "Start with habits you can repeat",
+          "text": "Choose small changes that suit your schedule, such as planning balanced meals, walking regularly or keeping a consistent bedtime. Focus on one or two changes you can maintain and review how they are working after a few weeks."
+        },
+        {
+          "heading": "Set goals around your health",
+          "text": "Weight can be affected by sleep, stress, medical conditions and medicines. If weight loss is appropriate for you, a clinician or registered dietitian can help you choose a realistic goal and adapt your plan to your health needs."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CDC · Steps for losing weight",
+          "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"
+        }
+      ]
     }
   ]
 }
