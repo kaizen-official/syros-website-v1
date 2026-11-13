@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const FORMSUBMIT_ENDPOINT = 'https://formsubmit.co/ajax/syroshospitals@gmail.com';
+const FORMSUBMIT_ENDPOINT = 'https://formsubmit.co/ajax/admin@syroshealthcare.com';
 
 const SUBJECTS = {
   appointment: 'New Appointment Request - Syros Healthcare',

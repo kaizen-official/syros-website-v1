@@ -66,7 +66,7 @@ npm start
 All public forms submit to the internal endpoint at `app/api/submit-form/route.js`. The endpoint forwards submissions to FormSubmit's AJAX endpoint for:
 
 ```text
-syroshospitals@gmail.com
+admin@syroshealthcare.com
 ```
 
 The integration covers:
@@ -83,11 +83,11 @@ After FormSubmit confirms a successful submission, the visitor is redirected to 
 
 ### One-time activation
 
-FormSubmit requires the recipient to approve a new form before it forwards submissions. An activation request has been sent to `syroshospitals@gmail.com` for `https://www.syroshealthcare.in`.
+FormSubmit requires the recipient to approve the form when the destination email changes.
 
-1. Open the FormSubmit activation email in that inbox.
-2. Click **Activate Form**.
-3. Submit one website form and confirm that the enquiry arrives in the inbox.
+1. After deploying the change, submit a test enquiry on the website to trigger the activation email.
+2. Open the FormSubmit email at `admin@syroshealthcare.com` and click **Activate Form**.
+3. Submit another test enquiry and confirm that it arrives in the inbox.
 
 If the message is not visible, check the Spam folder. The website does not require Google Sheets credentials or form-related environment variables for the current FormSubmit setup.
 
